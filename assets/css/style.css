@@ -9,6 +9,7 @@ body{
     background-size: cover;
 }
 h1{
+    size: 250px, 40px;
     font-family: 'Times New Roman';
 }
 div{
@@ -30,7 +31,7 @@ img{
     left: 200px; 
     z-index: 1;
 }
-nav{
+#top_bar{
     position: fixed;
     float: left;
     font-size: 18px;
@@ -46,6 +47,14 @@ nav{
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
     border-style: solid;
+}
+nav{
+    position: relative;
+    top: 0;
+    width: 960px;
+    height: 80px;
+    margin: auto;
+
    
 }
 a{
@@ -55,21 +64,23 @@ a{
 }
 #about{
     position: relative;
-    float: left;
-    left: 975px;
+    float: right;
+    /* left: 975px; */
     top: 30px;
   
 }
 #portfolio{
     position: relative;
-    float: left;
-    left: 1025px;   
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* left: 1025px;    */
     top: 30px;
 }
 #contact{
     position: relative;
-    float: left;
-    left: 1075px; 
+    float: right;
+    /* left: 1075px;  */
     top: 30px;
    
 }
@@ -90,9 +101,8 @@ h2{
     border-style: solid;
 }
 #small_box{
-    position: absolute;
-    top: 120px;
-    left: 300px;
+    position: relative;
+    top: 150px;
     background-color: #ffffff;
     margin: auto;
     width: 918px;
