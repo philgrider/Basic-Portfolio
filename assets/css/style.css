@@ -21,21 +21,25 @@ img{
     height: 300px;
 }
 #your_name{
-    position: fixed;
+    position: relative;
+    float: left;
+    font-size: 20px;
     background-color: #4aaaa5;
     color: white;
     width: 250px;
+    height: 80px;
     text-align: center;
     top: 0;
-    padding: 15px,5px,15px,5px;
-    left: 200px; 
-    z-index: 1;
+    /* padding: 15px,5px,15px,5px; */
+    /* left: 200px;  */
+    /* z-index: 1; */
 }
 #top_bar{
     position: fixed;
     float: left;
     font-size: 18px;
     display: block;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -65,22 +69,27 @@ a{
 #about{
     position: relative;
     float: right;
-    /* left: 975px; */
     top: 30px;
+    padding-right: 25px;
+    border-right-width: 1px;
+    border-right-color: #cccccc;
+    border-right-style: solid;
   
 }
 #portfolio{
     position: relative;
     float: right;
-    margin-left: 50px;
-    margin-right: 50px;
-    /* left: 1025px;    */
+    padding-left: 25px;
+    padding-right: 25px;
     top: 30px;
+    border-right-width: 1px;
+    border-right-color: #cccccc;
+    border-right-style: solid;
 }
 #contact{
     position: relative;
     float: right;
-    /* left: 1075px;  */
+    padding-left: 25px;
     top: 30px;
    
 }
@@ -91,7 +100,10 @@ a{
     background-size: cover;
 }
 h2{
+    font-family: 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    font-size: 38px;
+    margin: 0;
     padding: 20px;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -102,7 +114,7 @@ h2{
 }
 #small_box{
     position: relative;
-    top: 150px;
+    top: 120px;
     background-color: #ffffff;
     margin: auto;
     width: 918px;
@@ -119,7 +131,8 @@ h2{
     float: left;
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 20px;
+    margin-top: 25px;
 }
 p.space{
     line-height: 1.8;
@@ -127,11 +140,12 @@ p.space{
     opacity: .75;
 }
 footer{
-    position: absolute;
-    bottom: 0%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
     left: 0;
-    background-color: #666666;
     width: 100%;
+    background-color: #666666;
     height: 60px;
     text-align:center;
 
@@ -148,7 +162,7 @@ footer{
     position: relative;
     bottom: -45px;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 

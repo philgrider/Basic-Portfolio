@@ -1,0 +1,41 @@
+#port-images{
+    /* float: left; */
+    width: 275px;
+    height: 200px;
+    margin: 20px;
+
+}
+#image-container{
+    position: relative;
+    float: left;
+    margin: 0; 
+}
+.text-block {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    Top: 115px;
+    left: 20px;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    padding-left: 63px;
+    padding-right: 62px;
+    width: 150px;
+}
+#portfolio_box{
+        position: relative;
+        top: 120px;
+        background-color: #ffffff;
+        margin: auto;
+        width: 918px;
+        border-top-width: 1px;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-bottom-width: 1px;
+        border-color: #cccccc;
+        border-style: solid;
+        padding: 20px;
+        padding-bottom: 800px;
+
+    }
