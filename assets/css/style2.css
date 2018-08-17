@@ -16,7 +16,7 @@
 .text-block {
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
-    Top: 152px;
+    Top: 175px;
     left: 0;
     font-size: 20px;
     font-weight: lighter;
@@ -29,16 +29,17 @@
 }
 #portfolio_box{
         position: relative;
-        top: 110px;
+        top: 115px;
         background-color: #ffffff;
         margin: auto;
+        margin-bottom: 100px;
         width: 918px;
         overflow: auto;
         border-top-width: 1px;
         border-left-width: 1px;
         border-right-width: 1px;
         border-bottom-width: 1px;
-        border-color: #cccccc;
+        border-color:#dddddd;
         border-style: solid;
         padding: 20px;
 

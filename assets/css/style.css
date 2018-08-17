@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    height: -webkit-fill-available;
 }
 h1{
     size: 250px, 40px;
@@ -108,7 +109,6 @@ a{
 #container{
     background-image: url("/Users/phillipgrider/Desktop/Bootcamp/02-Homework/Basic-Portfolio/assets/images/light-grey-terrazzo.png");
     overflow: -webkit-paged-x;
-    height: -webkit-fill-available;
     width: -webkit-fill-available;
 }
 
@@ -124,7 +124,7 @@ a{
     border-bottom-width: 1px;
     border-color:#dddddd;
     border-style: solid;
-    padding: 30px;
+    padding: 20px;
 }
 #image{
     float: left;
