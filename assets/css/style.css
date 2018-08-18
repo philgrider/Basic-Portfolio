@@ -19,6 +19,7 @@ h2{
     color: #4aaaa5;
     font-size: 28px;
     margin: 0;
+    margin-bottom: 20px;
     padding-bottom: 20px;
     padding-top: 0;
     padding-left: 0;
@@ -31,10 +32,6 @@ h2{
 }
 div{
     color: #777777;
-}
-img{
-    width: 300px;
-    height: 300px;
 }
 nav{
     position: relative;
@@ -129,14 +126,16 @@ a{
 #image{
     float: left;
     width: 200px;
-    height: 200px;
+    height: 150px;
     margin: 20px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 p.space{
     line-height: 1.8;
     padding: 5px;
     opacity: .75;
+    font-size: 18px;
+    margin: 0;
 }
 footer{
     overflow: hidden;
